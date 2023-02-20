@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 //import CoordinatorLogin from './Components/CoordinatorLogin';
 //import AdminLogin from './Components/AdminLogin';
 // import CoordinatorDashboard from './Components/CoordinatorDashboard';
@@ -9,23 +9,23 @@ import reportWebVitals from './reportWebVitals';
 //import AddCoordinator from './Components/AddCoordinator';
 //import StudentLogin from './Student/StudentLogin';
 //import StudentRegister from './Student/StudentRegister';
+import "bootstrap/dist/css/bootstrap.min.css";
+import StudentDetail from "./Student/StudentDetail";
 
-import StudentDetail from './Student/StudentDetail';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <div>
-        {/* <CoordinatorLogin />  */}
-        {/* <br /> */}
-        {/* <AdminLogin />  */}
-        {/* <br/> */}
-        {/* <CoordinatorDashboard /> */}
-        {/* <AdminDashboard /> */}
-        {/* <AddCoordinator /> */}
-        {/* <StudentLogin /> */}
-        {/* <StudentRegister/>  */}
-        <StudentDetail/>
-    </div>
+  <div>
+    {/* <CoordinatorLogin />  */}
+    {/* <br /> */}
+    {/* <AdminLogin />  */}
+    {/* <br/> */}
+    {/* <CoordinatorDashboard /> */}
+    {/* <AdminDashboard /> */}
+    {/* <AddCoordinator /> */}
+    {/* <StudentLogin /> */}
+    {/* <StudentRegister/>  */}
+    <StudentDetail />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
