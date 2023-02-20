@@ -1,0 +1,41 @@
+#heading{
+    background-color: #EBEBEB;
+    height: 100px;
+    width: auto;
+    margin-top: -22px;
+    border-radius: 10px 10px 0 0;
+}
+
+#heading button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    height: 48px;
+    width: 170px;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 165px;
+}
+
+
+.dashboard_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    background-color: #C4EAF0;
+    height: 232px;
+    width: 288px;
+    border-radius: 10px;
+    border: 2px solid #17A1B7;
+}
+
+.cards p{
+    font-size: 35px;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+#add_co_ordinator_card{
+    height: 1041px;
+    width: 903px;
+    border-radius: 10px;
+    border: 2px solid black;
+    align-content: center;
+    }
+
+    #heading{
+        background-color: #EBEBEB;
+        height: 71px;
+        width: 903px;
+        margin-top: -22px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .titles{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    .titles p{
+        font-size: 25px;
+    }
+
+
+    .titles #show_password{
+        font-size: 15px;
+        color: #14ACED;
+    }
+
+    .input_field, #stream_select{
+        height: 48px;
+        width: 873px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .buttons a button{
+        height: 65px;
+        width: 545px;
+        background-color: #17A1B7;
+        color: white;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .compulsory{
+        color: red;
+    }
