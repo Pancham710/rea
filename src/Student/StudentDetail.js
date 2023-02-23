@@ -1,17 +1,6 @@
 import React from "react";
 
 import "./StudentDetail.css";
-<<<<<<< HEAD
-=======
-
-import { Button } from "react-bootstrap";
-import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import { Container } from "react-bootstrap";
-import { Card } from "react-bootstrap";
-import { FloatingLabel } from "react-bootstrap";
->>>>>>> b6569b998d09260c92f5c9e4b7a24a73c2df165e
 
 import { Button } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
@@ -27,13 +16,8 @@ export default function StudentDetail() {
       <Row>
         <Col></Col>
         <Col sm={6}>
-<<<<<<< HEAD
           <Card className="mt-4 border-4 border-black"  style={{borderRadius: '20px 20px 0px 0px',borderWidth: '1.6px',borderColor: 'black'}} >
             <Card.Header className="text-center bg-info text-white p-4"  style={{borderRadius: '20px 20px 0px 0px'}}  as="h4">
-=======
-          <Card className="mt-4">
-            <Card.Header className="text-center" as="h4">
->>>>>>> b6569b998d09260c92f5c9e4b7a24a73c2df165e
               Student Login
             </Card.Header>
             <Card.Body>
@@ -73,7 +57,6 @@ export default function StudentDetail() {
                   placeholder="Current Address Here"
                   style={{ height: "100px" }}
                 />
-<<<<<<< HEAD
 
                 <Form.Group className="mb-3" controlId="formGroupPassword">
                   <Form.Label>Father's Name</Form.Label>
@@ -437,11 +420,6 @@ export default function StudentDetail() {
                 
               </Form>
               <br></br>
-=======
-              </Form>
-              <br></br>
-              <Button variant="primary">Register</Button>
->>>>>>> b6569b998d09260c92f5c9e4b7a24a73c2df165e
             </Card.Body>
           </Card>
         </Col>

@@ -21,18 +21,29 @@ import StudentRegister from "./Student/StudentRegister";
 import HomePage from "./Home/HomePage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <div>
-        {/* <CoordinatorLogin />  */}
-        {/* <br /> */}
-        {/* <AdminLogin />  */}
-        {/* <br/> */}
-        {/* <CoordinatorDashboard /> */}
-        {/* <AdminDashboard /> */}
-        {/* <AddCoordinator /> */}
-        {/* <StudentLogin /> */}
-        {/* <StudentRegister/>  */}
-        <StudentDetail/>
-    </div>
+  <div>
+    {/* <CoordinatorLogin />  */}
+    {/* <br /> */}
+    {/* <AdminLogin />  */}
+    {/* <br/> */}
+    {/* <CoordinatorDashboard /> */}
+    {/* <AdminDashboard /> */}
+    {/* <AddCoordinator /> */}
+    {/* <StudentLogin /> */}
+    {/* <StudentRegister/>  */}
+    {/* <StudentDetail />   */}
+    {/* <ApplyCompanies/>  */}
+    {/* <AlreadyApplied/> */}
+    {/* <TrackProgress/> */}
+    {/* <PreviousQuestions/> */}
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="/login" element={<StudentLogin />} />
+        <Route path="/register" element={<StudentRegister />} />
+       </Routes>
+    </BrowserRouter>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
